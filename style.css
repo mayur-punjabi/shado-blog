@@ -4,6 +4,7 @@
 	box-sizing:border-box;
 }
 .post-container{
+	min-height: -webkit-fill-available;
 	height:100vh;
 	display:-webkit-box;
 	display:flex;
