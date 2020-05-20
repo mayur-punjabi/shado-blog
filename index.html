@@ -59,6 +59,7 @@
 	<script>
 		window.onload=()=>{
 	let container = document.querySelector('.post-container');
+			container.style.height = window.innerHeight;
 	alert('window height - ' + window.innerHeight+'\n'+'container height - '+window.getComputedStyle(container).getPropertyValue('height'));
 }
 	</script>	
