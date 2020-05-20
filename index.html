@@ -8,7 +8,6 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <div class="post-container">
 	<div class="header">
 		<div class="header-content shadow-2xl">
@@ -57,7 +56,12 @@
 		<i class="fab fa-facebook-f"></i>
 	</div>
 </div>
-<!-- partial -->
+	<script>
+		window.onload=()=>{
+	let container = document.querySelector('.post-container');
+	alert('window height - ' + window.innerHeight+'\n'+'container height - '+window.getComputedStyle(container).getPropertyValue('height'));
+}
+	</script>	
   
 </body>
 </html>
